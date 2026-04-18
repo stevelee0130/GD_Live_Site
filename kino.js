@@ -192,7 +192,6 @@ $(document).on("click", "#movie-list li", function() {
     $("#movie-frames").append(`<img src="${path}" class="frame-${format}" alt="${movie.title} frame">`)
     });
 
-
 });
 
 const cursor = document.createElement("div");
@@ -235,8 +234,6 @@ $(document).on("mouseleave", "#movie-list li", function(){
 });
 
 });
-
-
 
 // setTimeout(function(){
 // $("#box-35mm").click();

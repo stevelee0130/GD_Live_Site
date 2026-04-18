@@ -338,6 +338,7 @@ p {
 
 .answer p{
     font-size: 1.1rem;
+    font-weight: lighter;
     color: white;
     /* text-align: justify; */
 }
